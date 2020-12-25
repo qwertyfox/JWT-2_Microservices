@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "application.jwt",
+      "type": "com.qwertyfox.webserver.jwt.MyJwtConfig",
+      "sourceType": "com.qwertyfox.webserver.jwt.MyJwtConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "application.jwt.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.qwertyfox.webserver.jwt.MyJwtConfig"
+    },
+    {
+      "name": "application.jwt.token-expiry-after-days",
+      "type": "java.lang.Integer",
+      "sourceType": "com.qwertyfox.webserver.jwt.MyJwtConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "application.jwt.token-prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.qwertyfox.webserver.jwt.MyJwtConfig"
+    }
+  ],
+  "hints": []
+}
